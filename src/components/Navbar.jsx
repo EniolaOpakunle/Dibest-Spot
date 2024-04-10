@@ -3,9 +3,9 @@ import logo from '../assets/images/logo.png'
 
 function Navbar() {
   return (
-    <>
-    <nav className='navbar navbar-expand-lg w-100'>
-      <div className='container-fluid w-100'>
+    <div className='nav-section'>
+    <nav className='navbar navbar-expand-lg'>
+      <div className='container-fluid'>
         <a href="#" className='navbar-brand'>
           <img src={logo} alt="logo" />
         </a>
@@ -13,27 +13,27 @@ function Navbar() {
           <span class="navbar-toggler-icon"></span>
         </button>
         <div className='collapse navbar-collapse' id= "navbarTogglerDemo02">
-          <ul className='navbar-nav'>
-            <li className='nav-item'>
+          <div className='navbar-nav'>
+            <div className='nav-item'>
               <a href="#" className='nav-link active'>Home</a>
-            </li>
-            <li className='nav-item'>
+            </div>
+            <div className='nav-item'>
               <a href="" className='nav-link'>Features</a>
-            </li>
-            <li className='nav-item'>
+            </div>
+            <div className='nav-item'>
               <a href="" className='nav-link'>Pricing</a>
-            </li>
-            <li className='nav-item'>
+            </div>
+            <div className='nav-item'>
               <a href="" className='nav-link'>About</a>
-            </li>
-            <li className='nav-item'>
+            </div>
+            <div className='nav-item'>
               <a href="" className='nav-link'>Contact Us</a>
-            </li>
-          </ul>
+            </div>
+          </div>
           <form action="">
             <input type="text" placeholder='search'/>
           </form>
-          <form action="">
+          <form action="" className='buttons'>
             <button className='btn btn-sm '>Log in</button>
             <button className='btn btn-sm '>Signup</button>
           </form>
@@ -44,7 +44,7 @@ function Navbar() {
         </div>
       </div>
     </nav>
-    </>
+    </div>
   )
 }
 
