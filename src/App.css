@@ -1,0 +1,20 @@
+/* navbar */
+nav form button:nth-child(1){
+    background-color: var(--secondaryColor2);
+    border: thin solid var(--secondaryColor2);
+    color: var(--primaryColor);
+}
+nav form button:nth-child(1):hover{
+    border: thin solid var(--secondaryColor2);
+    color: var(--secondaryColor2);
+}
+nav form button:nth-child(2){
+    border: thin solid var(--secondaryColor2);
+    color: var(--secondaryColor2);
+}
+nav form button:nth-child(2):hover{
+    background-color: var(--secondaryColor2);
+    border: thin solid var(--secondaryColor2);
+    color: var(--primaryColor);
+}
+nav

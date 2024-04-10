@@ -1,6 +1,12 @@
 :root{
   --primaryColor: rgba(255, 255, 255, 1);
   --secondaryColor:rgba(40, 40, 91, 1);
+  --secondaryColor2:rgba(167, 130, 54, 1);
+
+}
+button{
+  padding: 5px 23px !important;
+  border-radius: 10px !important;
 }
 
 /* :root {
