@@ -170,7 +170,7 @@ nav form input{
     align-items: center;
 }
 .market .div2{
-    justify-content: space-between;
+    /* justify-content: space-between;  */
 }
 .market .div1{
     justify-content: center;

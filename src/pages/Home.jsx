@@ -5,6 +5,9 @@ import shopping_cart from '../assets/images/shopping-cart.png'
 import money_receive from '../assets/images/money-recieve.png'
 import home from '../assets/images/home.png'
 import marketImage1 from '../assets/images/Frame1.png'
+import marketImage2 from '../assets/images/Frame2.png'
+import marketImage3 from '../assets/images/Frame3.png'
+import marketImage4 from '../assets/images/Frame4.png'
     
     function Home() {
       return (
@@ -91,8 +94,8 @@ import marketImage1 from '../assets/images/Frame1.png'
                     </div>
                     <div className="" style={{width: "175px" , height: ''}}>
                       <div className="card-body">
-                        <h5 className="card-title">Shop Local</h5>
-                        <p className="card-text">Support local businesses and find the best deals from restaurants, ondemand service providers, rental properties, classifies and local products crafted or sold right in your community.</p>
+                        <h5 className="card-title">Go Global</h5>
+                        <p className="card-text">Explore a world of possibilities with international sellers and unique items from around the globe</p>
                       </div>
                     </div>
                   </div>
@@ -102,12 +105,12 @@ import marketImage1 from '../assets/images/Frame1.png'
                 <div className="card" style={{width:"300px"}}>
                   <div className="d-flex">
                     <div className="">
-                      <img src={marketImage1} className="img-fluid rounded-start" alt="..." style={{width: ""}}/>
+                      <img src={marketImage2} className="img-fluid rounded-start" alt="..." style={{width: ""}}/>
                     </div>
                     <div className="" style={{width: "175px"}}>
                       <div className="card-body">
-                        <h5 className="card-title">Shop Local</h5>
-                        <p className="card-text">Support local businesses and find the best deals from restaurants, ondemand service providers, rental properties, classifies and local products crafted or sold right in your community.</p>
+                        <h5 className="card-title">Exciting Auctions</h5>
+                        <p className="card-text">Dive into the thrill of live auctions. Bid on your dream items and enjoy the excitement of winning!</p>
                       </div>
                     </div>
                   </div>
@@ -115,12 +118,12 @@ import marketImage1 from '../assets/images/Frame1.png'
                 <div className="card" style={{width:"300px"}}>
                   <div className=" d-flex g-0">
                     <div className="">
-                      <img src={marketImage1} className="img-fluid rounded-start" alt="..."/>
+                      <img src={marketImage3} className="img-fluid rounded-start" alt="..."/>
                     </div>
                     <div className="" style={{width: "175px"}}>
                       <div className="card-body">
-                        <h5 className="card-title">Shop Local</h5>
-                        <p className="card-text">Support local businesses and find the best deals from restaurants, ondemand service providers, rental properties, classifies and local products crafted or sold right in your community.</p>
+                        <h5 className="card-title">Community Connection</h5>
+                        <p className="card-text">Connect with like-minded individuals, share recommendations, and build a vibrant online community</p>
                       </div>
                     </div>
                   </div>
@@ -130,7 +133,7 @@ import marketImage1 from '../assets/images/Frame1.png'
                 <div className="card" style={{width:"300px"}}>
                   <div className="d-flex">
                     <div className="">
-                      <img src={marketImage1} className="img-fluid rounded-start" alt="..."/>
+                      <img src={marketImage4} className="img-fluid rounded-start" alt="..."/>
                     </div>
                     <div className="" style={{width: "175px" , height: ''}}>
                       <div className="card-body">
