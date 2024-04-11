@@ -7,7 +7,7 @@ import Navbar from '../components/Navbar'
         <div className =''>
           
           <div className='header'>
-            <div className=''>
+            <div className='sticky-top'>
               <Navbar/>
             </div>
             <div className='text-light welcome'>
@@ -15,7 +15,7 @@ import Navbar from '../components/Navbar'
               <p>Explore, Sign-up and connect in the cayman Islands and the Carribeans</p>
               <button>Start Now</button>
             </div>
-            <div className='d-flex m-auto why'>
+            <div className='d-flex  why'>
               <div className='text-light'>
                 <h2>Why Dibest Spot for the Carribbean?</h2>
               </div>
@@ -29,7 +29,7 @@ import Navbar from '../components/Navbar'
               </div>
             </div>
           </div>
-          <div className='w-75 m-auto features'>
+          {/* <div className='w-75 m-auto features'>
             <h4 className=''>Key Features</h4>
             <div className='row'>
               <div className='col-3'>
@@ -45,7 +45,7 @@ import Navbar from '../components/Navbar'
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         </>
       )
