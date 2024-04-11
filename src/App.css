@@ -110,6 +110,7 @@ nav form input{
     width: 80% !important;
     text-align: center;
     margin-top: 242px !important;
+    padding-bottom: 70px;
 }
 .features .row{
     display: flex;
@@ -127,4 +128,50 @@ nav form input{
     font-size: 16px !important;
     font-weight: 500;
     color: var(--secondaryColor);
+}
+
+/* Market */
+.market{
+    padding: 50px 100px;
+    background-color:rgba(241, 241, 241, 1);
+    justify-content: center;
+    align-items: center;
+}
+.market .title{
+    font-size: 28px;
+    font-weight: 600;
+    color: var(--secondaryColor);
+    width: 420px;
+}
+.market .card{
+    border: thin solid white;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)
+    );
+    /* box-shadow: rgba(0, 0, 0, 0.25); */
+    align-items: center;
+    padding: 0 10px 0 10px !important;
+    margin:  0 10px 10px 0;
+    border-radius: 15px;
+}
+.market .card img{
+    width: 97px !important;
+    height: 97px !important;
+}
+.market .card-title{
+    font-size: 14px;
+    color: var(--secondaryColor);
+}
+.market .card-text{
+    font-size: 10px;
+    color: black;
+}
+.market .card .d-flex{
+    justify-content: space-between !important;
+    align-items: center;
+}
+.market .div2{
+    justify-content: space-between;
+}
+.market .div1{
+    justify-content: center;
 }

@@ -4,6 +4,7 @@ import globalImage from '../assets/images/global.png'
 import shopping_cart from '../assets/images/shopping-cart.png'
 import money_receive from '../assets/images/money-recieve.png'
 import home from '../assets/images/home.png'
+import marketImage1 from '../assets/images/Frame1.png'
     
     function Home() {
       return (
@@ -76,6 +77,72 @@ import home from '../assets/images/home.png'
                 <p className='sub-text'>Tailor your experience with personalized dashboards, quick links to popular items, and recommendations based on your preferences</p>
               </div>
             </div>
+          </div>
+          <div className='market row col-12'>
+            <div className='col-lg-6 '>
+              <p className='title '>Join any of the Dibest Spot MarketPlaces Today and Enjoy</p>
+            </div>
+            <div className='col-lg-6'>
+              <div className='d-flex div1' >
+                <div className="card" style={{width:"300px"}}>
+                  <div className="d-flex">
+                    <div className="">
+                      <img src={marketImage1} className="img-fluid rounded-start" alt="..."/>
+                    </div>
+                    <div className="" style={{width: "175px" , height: ''}}>
+                      <div className="card-body">
+                        <h5 className="card-title">Shop Local</h5>
+                        <p className="card-text">Support local businesses and find the best deals from restaurants, ondemand service providers, rental properties, classifies and local products crafted or sold right in your community.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className='d-flex div2'>
+                <div className="card" style={{width:"300px"}}>
+                  <div className="d-flex">
+                    <div className="">
+                      <img src={marketImage1} className="img-fluid rounded-start" alt="..." style={{width: ""}}/>
+                    </div>
+                    <div className="" style={{width: "175px"}}>
+                      <div className="card-body">
+                        <h5 className="card-title">Shop Local</h5>
+                        <p className="card-text">Support local businesses and find the best deals from restaurants, ondemand service providers, rental properties, classifies and local products crafted or sold right in your community.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="card" style={{width:"300px"}}>
+                  <div className=" d-flex g-0">
+                    <div className="">
+                      <img src={marketImage1} className="img-fluid rounded-start" alt="..."/>
+                    </div>
+                    <div className="" style={{width: "175px"}}>
+                      <div className="card-body">
+                        <h5 className="card-title">Shop Local</h5>
+                        <p className="card-text">Support local businesses and find the best deals from restaurants, ondemand service providers, rental properties, classifies and local products crafted or sold right in your community.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className='d-flex div1' >
+                <div className="card" style={{width:"300px"}}>
+                  <div className="d-flex">
+                    <div className="">
+                      <img src={marketImage1} className="img-fluid rounded-start" alt="..."/>
+                    </div>
+                    <div className="" style={{width: "175px" , height: ''}}>
+                      <div className="card-body">
+                        <h5 className="card-title">Shop Local</h5>
+                        <p className="card-text">Support local businesses and find the best deals from restaurants, ondemand service providers, rental properties, classifies and local products crafted or sold right in your community.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
         </>
