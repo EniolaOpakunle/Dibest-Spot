@@ -104,3 +104,27 @@ nav form input{
 .header .card-body{
     font-size: 10px ;
 }
+
+/* features */
+.features{
+    width: 80% !important;
+    text-align: center;
+    margin-top: 242px !important;
+}
+.features .row{
+    display: flex;
+    justify-content: space-between;
+}
+.features .div2{
+    justify-content: center !important;
+}
+.features img{
+    /* width: 15rem !important; */
+    width: 40px !important;
+    height: 40px !important;
+}
+.features .title{
+    font-size: 16px !important;
+    font-weight: 500;
+    color: var(--secondaryColor);
+}

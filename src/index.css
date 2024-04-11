@@ -8,6 +8,12 @@ button{
   padding: 5px 23px !important;
   border-radius: 5px !important;
 }
+.title{
+  font-size: 16px;
+}
+.sub-text{
+  font-size: 12px;
+}
 
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
